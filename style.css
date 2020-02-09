@@ -1,0 +1,144 @@
+body{
+  padding-top: 52px;
+}
+nav{
+  background-color: black;
+  padding:0px !important;
+  height:52px;
+}
+.nav-link{
+  font-size:15px;
+  font-weight: 400 !important;
+  color: white;
+  padding: 15px !important;
+  height:100%;
+}
+.nav-link:hover{
+  background-color: #ccc;
+  color: black !important;
+}
+nav>.navbar-toggler{
+  color:white !important;
+}
+.search-icon{
+  padding-right:20px;
+}
+.search-icon:hover{
+  background-color:#dc3545 ;
+  color: white !important;
+}
+#myCarousel{
+  width: 100% !important;
+  height:auto !important;
+
+}
+.second-section{
+  padding-top:50px;
+}
+.header-2ndsec{
+  font-size: 30px;
+  font-weight: 400;
+}
+.sec-disabled{
+  color: grey;
+  font-style: italic;
+}
+.second-section-para{
+  padding:0px 350px 0px 350px;
+   font-family: Arial;
+}
+.band{
+  width:200px;
+  height:250px;
+  padding:0px 10px 50px 10px;
+}
+.col-lg-2{
+  text-align: center;
+}
+/*start of third section*/
+.third-section{
+  background-color: black;
+}
+.header-3rdsec{
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+.third-disabled{
+  color: grey;
+  font-style: italic;
+}
+.sold{
+  color: #fff!important;
+  background-color: #f44336!important;
+  border:none;
+}
+.month{
+  margin:0px;
+  border-radius: 0px;
+}
+.last-month{
+  margin-bottom: 10px ;
+}
+.free{
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  border:none;
+  float: right;
+}
+/*end of third section*/
+
+/*forth sec*/
+.card{
+  border:none;
+}
+.card-header{
+  text-align: center;
+  background: none;
+  border: none;
+}
+label{
+  display: block;
+}
+.labels{
+  padding: 80px;
+}
+.inputs{
+  padding:80px;
+}
+input {
+  padding: 15px;
+}
+h2{
+  font-weight: 400;
+}
+span{
+  font-style: italic;
+  font-weight: 100;
+  color:grey;
+}
+/*end of forth sec*/
+/*start of fifth sec*/
+.map{
+  width:100%;
+}
+/*end of fifth sec*/
+/*footer*/
+footer{
+  height: 216.4px;
+}
+.icons{
+  padding-top: 30px;
+}
+i{
+  padding-left: 15px;
+}
+i:hover{
+  color: hotpink;
+}
+.copyrights{
+  font-style: italic;
+  font-weight: 500;
+}
+/*end of footer*/

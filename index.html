@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <!-- start of navbar -->
+    <nav class="navbar navbar-expand-lg  text-white  fixed-top">
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-align-justify"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <a class="nav-link nav-item">HOME</a>
+        <a class="nav-link nav-item">BAND</a>
+        <a class="nav-link nav-item">TOUR</a>
+        <a class="nav-link nav-item">CONTACT</a>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            MORE
+          </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Merchandise</a>
+            <a class="dropdown-item" href="#">Extras</a>
+            <a class="dropdown-item" href="#">Media</a>
+          </div>
+        </div>
+        <a class="nav-link nav-item  ml-auto search-icon"><i class="fa fa-search"></i></a>
+      </div>
+    </nav>
+    <!-- end of navbar  -->
+
+    <!-- start of first section -->
+    <section class="first-section container-fluid">
+      <div class="row justify-content-center">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/la.jpg" alt="Los Angeles" width="100%">
+            </div>
+            <div class="carousel-item">
+              <img src="img/chicago.jpg" alt="Chicago" width="100%">
+            </div>
+            <div class="carousel-item">
+              <img src="img/ny.jpg" alt="New York" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of first section -->
+
+    <!-- start of second section -->
+      <section class="container-fluid second-section">
+          <div class="row  justify-content-center">
+            <h1 class="header-2ndsec" >THE BAND</h1>
+          </div>
+        <div class="row justify-content-center">
+            <p class="sec-disabled">We love music</p>
+        </div>
+        <div class="row justify-content-center">
+          <p class="second-section-para">
+            We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-2">
+            <h6 class="text-capitalize">tarek</h6>
+            <img class="band" src="img/tarek1.jpg">
+          </div>
+          <div class="col-lg-2">
+            <h6 class="text-capitalize">tarek</h6>
+            <img class="band" src="img/tarek2.jpg">
+          </div>
+          <div class="col-lg-2">
+            <h6 class="text-capitalize">tarek & ahmed</h6>
+            <img class="band" src="img/tarek3.jpg">
+          </div>
+        </div>
+      </section>
+    <!-- end of second section -->
+
+    <!-- start of third section -->
+      <section class="container-fluid third-section">
+        <div class="row justify-content-center">
+          <h1 class="header-3rdsec" >TOUR DATES</h1>
+        </div>
+        <div class="row justify-content-center third-disabled">Remember to book your tickets!</div>
+        <div class="row justify-content-center">
+          <div class="col-6">
+          <label class="form-control month">septemper <button class=" sold">sold out</button> </label>
+          <label class="form-control month">october <button class=" sold">sold out</button> </label>
+          <label class="form-control month last-month">novmber <button class="free ml-auto">3</button>  </label>
+          </div>
+        </div>
+      </section>
+    <!-- end of third section -->
+
+    <!-- start of forth section -->
+      <section class="container-fluid forth-section">
+        <div class="row justify-content-center ">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-header">
+                <h2>CONTACT</h2>
+                <span>Fan? Drop a note!</span>
+              </div>
+              <div class="card-block">
+                <form>
+                  <div class="row">
+                    <div class="col-6 labels">
+                      <label ><i class="fas fa-map-marker-alt"></i> Chicago,US</label>
+                      <label ><i class="fas fa-phone"></i> Phone: +00 151515</label>
+                      <label ><i class="fas fa-envelope"></i> Email: mail@mail.com</label>
+                    </div>
+                    <div class="col-6 inputs">
+                      <div class="form-group">
+                        <div class="row ">
+                          <div class="first col-6"><input type="name" name="name" placeholder="name" autocomplete="off" class="form-control"></div>
+                          <div class="second col-6"><input type="email" name="email" placeholder="Email" autocomplete="off" class="form-control"></div>
+                        </div>
+                        <br>
+                        <div class="row">
+                          <div class="third col-12"><input type="text" name="message" placeholder="message" autocomplete="off" class="form-control"></div>
+                        </div>
+                        <br>
+                        <div class="row">
+                          <div class="col-md-3 offset-md-9">
+                            <button class="btn btn-dark w-100">Send</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+               </div>
+              </div>
+            </div>
+          </div>
+      </section>
+    <!-- end of forth section -->
+
+    <!-- start of fifth section -->
+      <section class="container-fluid fifth-section">
+        <div class="row">
+          <img class="map" src="img/map.jpg">
+        </div>
+      </section>
+    <!-- end of fifth section -->
+
+    <!-- start of footer -->
+      <footer class="container-fluid  bg-light">
+        <div class="row justify-content-center icons">
+          <a href=""><i class=" fa fa-facebook-square fa-lg" aria-hidden="true"></i></a>
+          <a href=""><i class=" fa fa-instagram       fa-lg" aria-hidden="true"></i></a>
+          <a href=""><i class=" fa fa-twitter-square  fa-lg" aria-hidden="true"></i></a>
+          <a href=""><i class=" fa fa-google          fa-lg" aria-hidden="true"></i></a>
+          <a href=""><i class=" fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
+        </div>
+        <div class="row justify-content-center copyrights">
+          <span>Powered by <u><a href="https://www.facebook.com/tarek.mahmoud.175">Tarek Mahmoud</a></u></span>
+        </div>
+      </footer>
+    <!-- end of footer -->
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
