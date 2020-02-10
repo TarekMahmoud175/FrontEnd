@@ -6,6 +6,9 @@ nav{
   padding:0px !important;
   height:52px;
 }
+.collapse{
+  background-color: black;
+}
 .nav-link{
   font-size:15px;
   font-weight: 400 !important;
@@ -44,7 +47,7 @@ nav>.navbar-toggler{
   font-style: italic;
 }
 .second-section-para{
-  padding:0px 350px 0px 350px;
+  /*padding:0px 350px 0px 350px;*/
    font-family: Arial;
 }
 .band{
